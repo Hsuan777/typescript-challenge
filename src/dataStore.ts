@@ -26,6 +26,5 @@ export function createDataStore<T>() {
   function getAll() {
     return data;
   }
-
   return { add, getAll };
 }
